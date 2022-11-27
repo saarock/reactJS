@@ -1,0 +1,48 @@
+.container {
+    height: 45rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box {
+background-color: blueviolet;
+width: 34rem;
+height: 34rem;
+display: flex;
+flex-direction: column;
+border-radius: 2rem;
+justify-content: center;
+align-items: center;
+}
+
+
+.value {
+height: 3rem;
+width: 25rem;
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+.btn {
+border: none;
+font-weight: bold;
+font-size: 1.4rem;
+margin-top: 2rem;
+}
+
+.txt {
+font-weight: bold;
+}
+
+@media screen and (max-width: 652px) {
+   
+
+    html {
+        font-size: 50%;
+    }
+}
+
